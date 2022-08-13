@@ -30,7 +30,7 @@ def go(args):
     df = df[df['price'].between(args.min_price, args.max_price)]
     
     logger.info("Converting last_review column to datetime")
-    df = pd.to_datetime(df['last_review'])
+    df['last_review'] = pd.to_datetime(df['last_review'])
     
     logger.info("Saving clean sample locally")
     df.to_csv("clean_sample.csv", index=False)
