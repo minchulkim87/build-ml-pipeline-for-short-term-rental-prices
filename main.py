@@ -80,6 +80,7 @@ def go(config: DictConfig):
             _ = mlflow.run(
                 f"{config['main']['components_repository']}/train_val_test_split",
                 "main",
+                version="main",
                 parameters={
                     "input": "clean_sample.csv:latest",
                     "test_size": config['modeling']['test_size'],
