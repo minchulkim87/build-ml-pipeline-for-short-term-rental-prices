@@ -8,7 +8,7 @@ Such a pipeline was built for the project.
 
 [GitHub Project Repo Release](https://github.com/minchulkim87/build-ml-pipeline-for-short-term-rental-prices/releases/tag/1.0.1)
 
-[Weights & Biases Project](https://wandb.ai/minchulkim87/build-ml-pipeline-for-short-term-rental-prices/)
+[Weights & Biases Project](https://wandb.ai/minchulkim87/nyc_airbnb/)
 
 ## License
 
